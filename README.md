@@ -1,2 +1,2 @@
-# TIL
-오늘 배운 것을 정리
+# Today I Learned(TIL)
+
