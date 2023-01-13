@@ -1,10 +1,10 @@
-CodeWithChirs의 Xcode 14 Tutorial 강의를 들으며 공부한 글입니다.
+CodeWithChirs의 Xcode 14 Tutorial 강의를 들으며 공부한 글
 [CodeWithChris Xcode 강의](https://youtu.be/EJQW864XpmA)
 
 ![](https://velog.velcdn.com/images/adad0207/post/4cbf7220-95c6-46cc-be62-2cd4bf62768a/image.png)
-- 새 프로젝트를 만드는 과정에서 Interface 와 Language를 결정합니다. 
-- Interface는 사용자가 사용할 User Interface를 고르는 것인데 storyBoard도 있지만 오래됐고 최근에 많이 사용중인 SwiftUI를 사용합니다.
-- Language는 Interface를 storyBoard로 사용했다면 Object-C를 사용하지만 그렇지 않으므로 Swift를 사용합니다.
+- 새 프로젝트를 만드는 과정에서 Interface 와 Language를 결정한다. 
+- Interface는 사용자가 사용할 User Interface를 고르는 것인데 storyBoard도 있지만 오래됐고 최근에 많이 사용중인 SwiftUI를 사용한다.
+- Language는 Interface를 storyBoard로 사용했다면 Object-C를 사용하지만 그렇지 않으므로 Swift를 사용한다.
 
 ![](https://velog.velcdn.com/images/adad0207/post/3d69aeda-44b7-4798-bf5b-73149af36ed2/image.png)
 
@@ -13,17 +13,43 @@ CodeWithChirs의 Xcode 14 Tutorial 강의를 들으며 공부한 글입니다.
 코드에 따른 내용을 출력해 preview 해주는 **Canvas**
 Editor area의 디테일한 부분을 보는 **Inspector area**
 그리고 위쪽에 프로젝트에 관한 현재 상태를 보여주는 **ToolBar**
-맨 밑에 마지막으로 에러등을 볼 수있는 **Debug area**가 있습니다.
+맨 밑에 마지막으로 에러등을 볼 수있는 **Debug area**가 있다.
 
 ## Navigator Area
 -----
 ### 프로젝트 관련
 
 ![](https://velog.velcdn.com/images/adad0207/post/c7e78aa7-0840-4b52-b79e-682f94d63d12/image.png)
-- 프로젝트 경로를 보면 이렇게 나오는데 첫 번째 폴더에 프로젝트에 필요한 파일들이 들어있고 두번째 폴더는 프로젝트를 Xcode로 프로젝트를 여는 파일입니다.
+- 프로젝트 경로를 보면 이렇게 나오는데 첫 번째 폴더에 프로젝트에 필요한 파일들이 들어있고 두번째 폴더는 프로젝트를 Xcode로 프로젝트를 여는 파일이다.
 
 ![](https://velog.velcdn.com/images/adad0207/post/b02cd9eb-66f5-4b5f-ba75-be70aab7f650/image.png)
-- 이런식으로 프로젝트 제일 상위파일을 Xcode에서 누르게 되면 Configuration을 설정할 수 있습니다.
+- 이런식으로 프로젝트 제일 상위파일을 Xcode에서 누르게 되면 Configuration을 설정할 수 있다.
+
+
+### Swift File
+![](https://velog.velcdn.com/images/adad0207/post/428854f7-5bb2-4281-8b9d-c106885df72c/image.png)
+- swift 파일 이와같이 코드를 갖는 파일인데 지금 이 코드는 ContentVeiw와 관련된 코드인 것 같습니다.![](https://velog.velcdn.com/images/adad0207/post/2b138ca1-7a5b-4021-aa71-ac72e6266115/image.png)
+- 우클릭 후 new file을 눌러 다음과같이 swift 파일을 추가 할 수 있다.
+
+
+### Asset
+![](https://velog.velcdn.com/images/adad0207/post/4fd569e5-ba92-4398-9b57-e66efbc0673c/image.png)
+- Asset은 Assets버튼을 눌러 확인할 수 있다. 
+- 색이나 이미지를 참조할 수 있도록 하는 기능을한다. 예를 들어 ButtonColor와 같이 한가지 색을 여러 버튼에 일일이 추가하는 것이 아닌 하나의 색을 참조후 사용하여 번거로움을 줄이는 것이다.
+- 색을 나타내는 ColorSet은 일반 색깔과 다크모드 색깔로 나눠할 수 있다.
+
+![](https://velog.velcdn.com/images/adad0207/post/93d75254-b520-4ba9-bde1-5242c8c7b674/image.png)
+- Image도 마찬가지로 참조하여 사용하는 것이지만, 1X 2X 3X 와 같이 크기별로 나눠 이미지를 설정할 수 있다.
+
+### Preview Content
+![](https://velog.velcdn.com/images/adad0207/post/14a22d2a-eb8a-44e4-9033-d406264ca348/image.png)
+- asset들을 참조할 경우 어떻게 보여지는 지 Preview하는 것이다.
+
+## Editor Area
+
+
+
+
 
 
 
