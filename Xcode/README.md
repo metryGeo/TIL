@@ -46,7 +46,46 @@ Editor area의 디테일한 부분을 보는 **Inspector area**
 - asset들을 참조할 경우 어떻게 보여지는 지 Preview하는 것이다.
 
 ## Editor Area
+```
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+```
+- 먼저 editor 화면을 보면 이러한 코드를 볼 수 있다.
+- VStack을 설명하자면 Vertical Stack 즉 수직으로 쌓이는 형태를 의미한다.
+- VStack 안에는 Image(systemName: "globe")가 있는데 내장되어 있는 globe이미지를 생성한 것이다.
+- 그 다음으로 온 Text("Hello, world!")는 Hello, world라는 문자를 나타낸 것이다.
 
+![](https://velog.velcdn.com/images/adad0207/post/63b08ce8-0df1-453b-a291-5a8d6bb4a8ca/image.png)
+<center>파란 모양이 globe 이미지, 그 밑의 문자가 Text이다.</center>
+
+- 이미지 안에 있는 코드 
+```
+.imageScale(.large)
+                .foregroundColor(.accentColor)
+```
+는 이미지를 수정하는 코드이다.
+
+imageSacle()은 이미지의 크기를 조정하는 속성이고
+foregroundColor()는 이미지의 색깔을 결정하는 속성이다. 여기서 .accentColor는 Assets에서 본 AccentColor이다.
+
+마지막으로 VStack의 대괄호를 벗어난 ```.padding()```은 좌우 위아래 간격을 조정하는 속성이다.
+
+### 이미지 넣어보기
+![](https://velog.velcdn.com/images/adad0207/post/569c87e5-5dd0-445f-a758-66d41b04aa84/image.png)
+- Assets에서 이미지 래퍼런스를 추가한 후![](https://velog.velcdn.com/images/adad0207/post/da6a7977-962a-4df7-a856-6c9fdfdd79c5/image.png)
+- Image() 안에 래퍼런스 이름을 넣어주면 이미지가 삽입되는 모습을 canvas에서 볼 수 있다.
+
+<center><img src="https://velog.velcdn.com/images/adad0207/post/04c7ce01-91a2-4421-90d1-6b188d60ce2a/image.png" width="300" height="300"/></center>
+- 밑에 있는 variants 탭을 누르면 다크모드도 볼 수 있다.
 
 
 
