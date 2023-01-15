@@ -88,7 +88,45 @@ foregroundColor()는 이미지의 색깔을 결정하는 속성이다. 여기서
 - 밑에 있는 variants 탭을 누르면 다크모드도 볼 수 있다.
 
 
+## Inspector Area
 
+<center><img src="https://velog.velcdn.com/images/adad0207/post/70cf5c5a-fab3-43e7-b5c7-e09d13771dc9/image.png" width="300" height="200"/></center>
+
+<center><img src="https://velog.velcdn.com/images/adad0207/post/ce7465eb-689c-43c5-86dc-749db42869ad/image.png" width="300"
+height="200"/></center>
+
+- Inspector Area에서는 여러 요소들의 속성들을 볼 수있다.
+위 사진은 VStack의 Quick Help Inspector와 Attribute Inspector이다.
+- Attribute에 들어가서 여러 속성들을 조정할 수 있다.(예를 들어 이미지의 속성으로 크기 조정, 텍스트의 속성으로 글자 크기, 굵기 조정)
+
+## ToolBar
+---
+### Library
+
+![](https://velog.velcdn.com/images/adad0207/post/01fa799f-79f7-47a7-be17-f235c01af873/image.png)
+- ToolBar를 보면 맨 오른쪽에 Library인 **+** 모양이 있다. 
+
+<center><img src="https://velog.velcdn.com/images/adad0207/post/efd8a34a-41c4-47ec-9eb5-c3d83427c85c/image.png" width="400" height="300"></center>
+
+- Library에 들어가면 순서대로 버튼같은 **View** 요소, 요소의 속성을 수정해주는 **Modifier**, if문 같은 소스코드인 **Snippet**, 내가 사용하는 이미지, 색상 등이 있다.
+
+<center><img src="https://velog.velcdn.com/images/adad0207/post/ed3cf3de-63ba-45da-9945-2590bf6228e1/image.png" width="300" height="200"></center>
+
+- Library에서 요소들을 드래그해온 뒤 추가해 보았다.
+
+<center><img src="https://velog.velcdn.com/images/adad0207/post/afd6d811-1882-446b-b85c-6928b50b9f71/image.png" width="300" height="200"></center>
+
+- 정상적으로 추가 됐다.
+
+## Simulator
+-----
+<center><img src="https://velog.velcdn.com/images/adad0207/post/8bb75081-1d70-406f-9ec3-1a64a38f6a29/image.png" width="300" height="200"></center>
+
+- 시뮬레이터를 돌려 실행해보았다.
+
+<center><img src="https://velog.velcdn.com/images/adad0207/post/d464f0c9-b17e-4d21-b03a-54c43ff190e2/image.png" width="400" height="200"></center>
+
+- 위의 세 번째 버튼인 Rotate 버튼을 눌러 가로모양도 확인했다.
 
 
 
