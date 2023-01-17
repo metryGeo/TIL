@@ -49,3 +49,27 @@ print(name) //metry
 ```var name: String = "Metry"
 print(name.count)	//5
 ```
+
+## 배열
+```
+var arr: Array<String> = ["abc", "def", "ghi"]	// 배열 선언 법
+var arr: [String] = ["abc", "def", "ghi"]	// 이 것도 가능
+
+```
+```
+print(arr.firstIndex(of: "abc"))	// 0
+```
+- firstIndex(of:_)로 해당 요소의 인덱스를 알 수 있다.
+
+```
+print(arr.first) // abc
+print(arr.last) // ghi
+```
+- first로 첫 번째 인덱스 값을 가져올 수 있다.
+- last로 마지막 인덱스 값을 가져올 수 있다.
+
+```
+let indexRemove: String = arr.remove(at: 0)	// 인덱스 0 값 삭제 후 indexRemove에 값 넣기
+print(indexRemove)	// 삭제된 abc값  출력
+```
+- remove(at:_)로 index 값을 넣어 해당 값을 삭제할 수 있다. 
