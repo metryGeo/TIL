@@ -8,4 +8,4 @@
 * [Swift](https://github.com/metryGeo/TIL/tree/main/Swift)
 
 ## StroyBoard
-* [StoryBaord]
+* [StoryBaord](https://github.com/metryGeo/TIL/tree/main/StoryBoard)
