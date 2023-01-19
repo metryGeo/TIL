@@ -73,3 +73,10 @@ let indexRemove: String = arr.remove(at: 0)	// 인덱스 0 값 삭제 후 indexR
 print(indexRemove)	// 삭제된 abc값  출력
 ```
 - remove(at:_)로 index 값을 넣어 해당 값을 삭제할 수 있다. 
+
+## 함수
+```
+func 함수 이름(매개변수) -> 반환 타입 {
+  실행구문
+  return 반환값
+  }
