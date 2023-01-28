@@ -41,7 +41,7 @@ main에 들어간 뒤
 - Asset에 있는 AppIcon에 사진을 넣어 앱 아이콘을 만들 수 있다. AppIcon사이트에서 사진을 넣으면 알맞는 크기의 사진을 출력 받을 수 있다.
 </br>
 
-<center><img src="https://velog.velcdn.com/images/adad0207/post/9825e0a6-993e-4bc8-9466-e29d6fca4fe8/image.png" width="300" height="200"/></center>
+<center><img src="https://velog.velcdn.com/images/adad0207/post/9825e0a6-993e-4bc8-9466-e29d6fca4fe8/image.png" width="400" height="600"/></center>
 
 - 시뮬레이터를 돌려보니 화면이 이상없이 잘 출력 됐다.
 
