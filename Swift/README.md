@@ -85,3 +85,28 @@ func 함수이름(전달인자 레이블 매개변수 이름: 타입, 전달인�
     return 반환 값
 }
 - 전달인자 레이블 추가
+
+# Xcode에서 swift를 하면서
+---
+## IBOutlet
+- 코드 상에서 StoryBoard 에 만든 View 객체를 사용하기 위해 연결해주는 역할
+```
+@IBOutlet weak var 변수이름: UIImageView!
+```
+- canvas에 배치해놓은 요소를 ctrl을 눌러 코드 있는 곳으로 드래그하면 이러한 형태의 코드가 나타난다.
+- 위의 코드는 ImageView를 추가한 것이며 변수이름은 바로 설정 가능하다.
+### 변수 활용
+- 이렇게 갖고온 변수로 여러 기능을 할 수 있다.
+- who(어떤 것으로).what(무엇을) = value
+- who 자리에 변수가 들어가고 what할 기능 value에 기능에 필요한 값을 넣는다.
+```
+변수.image = UIImage(imageLiteralResourceName: "새_이미지")
+```
+- 변수 이미지를 "새_이미지"라는 이미지로 바꾼다.
+
+## IBAction
+- 스토리보드 상에 선언한 View 객체가 특정 이벤트가 발생했을 경우 호출되는 함수
+-  이것 역시 드래그하여 설정한다.
+<center><img src="https://velog.velcdn.com/images/adad0207/post/5a5c4611-da60-424c-8fc7-6b9594606b69/image.png" width="300" height="200"/></center>
+- 드래그 하게 되면 이런 화면이 나오는데 Connection에 Action을 설정하고 Name에 이름을 설정할 수있다.
+- Type은 Action을 하는 요소의 타입이고 Event는 일어나는 이벤트이다.
