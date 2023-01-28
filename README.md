@@ -9,3 +9,4 @@
 
 ## StroyBoard
 * [StoryBaord](https://github.com/metryGeo/TIL/tree/main/StoryBoard)
+* [앱 I'm Rich](https://github.com/metryGeo/TIL/tree/main/StoryBoard/I'm%20Rich)
