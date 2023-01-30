@@ -110,3 +110,10 @@ func 함수이름(전달인자 레이블 매개변수 이름: 타입, 전달인�
 <center><img src="https://velog.velcdn.com/images/adad0207/post/5a5c4611-da60-424c-8fc7-6b9594606b69/image.png" width="300" height="200"/></center>
 - 드래그 하게 되면 이런 화면이 나오는데 Connection에 Action을 설정하고 Name에 이름을 설정할 수있다.
 - Type은 Action을 하는 요소의 타입이고 Event는 일어나는 이벤트이다.
+
+## StackView
+- StackView란 AutoLayout을 적용해 내부에 배치된 View들을 열 또는 행에 배치해주는 인터페이스
+- 쉽게말해 view들을 묶어주는 새로운 레이아웃
+### Distribution
+- StackView로 정렬된 view들의 위치를 정하는 것
+- fill equally : view들을 같은 크기로 변경한다
