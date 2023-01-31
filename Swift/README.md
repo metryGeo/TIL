@@ -117,3 +117,31 @@ func 함수이름(전달인자 레이블 매개변수 이름: 타입, 전달인�
 ### Distribution
 - StackView로 정렬된 view들의 위치를 정하는 것
 - fill equally : view들을 같은 크기로 변경한다
+
+## DispatchQueue
+- 앱의 기본 스레드 또는 백그라운드 스레드에서 연속적으로 또는 동시에 작업 실행을 관리하는 개체, 순차진행과 동시병렬진행이 있다.
+- 순차진행 seral은 main으로사용할 수 있다.
+```
+DispatchQueue.main(:)
+```
+- 동시 병렬진행 concurrent는 global로 사용할 수 있다.
+```
+DispatchQueue.global(:)
+```
+### 기능
+#### async
+- 작업 항목을 즉시 실행하도록 예약하고 즉시 반환
+```
+DispatchQueue.main.async()
+```
+#### sync
+- 현재 대기열에서 실행할 작업 항목을 제출하고 해당 블록의 실행이 완료된 후 반환
+```
+DispatchQueue.main.sync()
+```
+#### asyncafter
+- 지정된 시간에 실행할 작업 항목을 예약하고 즉시 반환
+```
+DispatchQueue.main.asyncafter(deadline: , execute: )
+```
+- deadline : 실행할 작업 예약시간
