@@ -145,3 +145,10 @@ DispatchQueue.main.sync()
 DispatchQueue.main.asyncafter(deadline: , execute: )
 ```
 - deadline : 실행할 작업 예약시간
+
+## AVAudioPlayer
+- 소리를 재생시킬 수 있는 개체
+
+### init
+- contentsOf url : 재생시킬 로컬파일 url
+- fileTypeHint uiString : 파일형식이 String이란 것, 파일형식을 정함
