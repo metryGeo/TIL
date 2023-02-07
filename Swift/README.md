@@ -117,6 +117,13 @@ init() {
 ```
 - 당연히 변수값을 설정할 수 있다
 
+```
+var st: Structor = Structor()	// 인스턴스 st 생성
+st.a = "aaa"	// 인스턴스의 변수 a의 값을 "aaa"로 변경
+```
+- 이것 처럼 인스턴스를 선언해 생성하고 인스턴스로 값에 접근할 수 있다.
+
+
 # Xcode에서 swift를 하면서
 ---
 ## IBOutlet
