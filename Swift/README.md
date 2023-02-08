@@ -123,6 +123,22 @@ st.a = "aaa"	// 인스턴스의 변수 a의 값을 "aaa"로 변경
 ```
 - 이것 처럼 인스턴스를 선언해 생성하고 인스턴스로 값에 접근할 수 있다.
 
+## 클래스
+
+```
+class ClassName
+{
+	var name: String = "Metry"
+	var grade: Int = 100
+    
+	init(name: String, grade: Int)
+	{
+		self.name = name
+		self.grade = grade
+	}
+}
+```
+- 클래스는 이런식으로 클래스와 생성자를 만들 수 있다.
 
 # Xcode에서 swift를 하면서
 ---
